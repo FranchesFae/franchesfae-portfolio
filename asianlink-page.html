@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Portfolio - AsianLink.AI</title>
+
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/general-style.css">
+        <link rel="stylesheet" href="css/product-page.css">
+        
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-content">
+                <a id="logo" href="index.html">UI Portfolio</a>
+                <div class="btn-container">
+                    <button onclick="scrolltoTop()"><img src="images/icons/company-default.svg">ASIANLINK.AI</button>
+                    <button onclick="scrolltoRole()"><img src="images/icons/role-default.svg">ROLE</button>
+                    <div id="designs-dropdown" class="dropdown-container">
+                        <button onclick="scrolltoDesigns()"><img src="images/icons/designs-default.svg">DESIGNS<img src="images/icons/arrow-down-default.svg"></button>
+                        <div class="dropdown-links">
+                            <p>Graphic Design</p>
+                            <button onclick="scrolltoStandee()">Standee</button>
+
+                            <p>Wireframe</p>
+                            <button onclick="scrolltoWebsite()">Website</button>
+                            <button onclick="scrolltoMobile()">Mobile App</button>
+                        </div>
+                    </div>
+
+                    <div id="otherworks-dropdown" class="dropdown-container">
+                        <button onclick="scrolltoOther()"><img src="images/icons/works-default.svg">OTHER WORKS<img src="images/icons/arrow-down-default.svg"></button>
+                        <div class="dropdown-links">
+                            <a href="philcentro-page.html">PhilCentro</a>
+                            <a href="annejewelry-page.html">Anne Jewelry</a>
+                            <a href="hideout-page.html">Hide Out Private Resort</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <section class="hero" id="hero-section">
+            <div class="section-content">
+                <img src="images/mockup-images/mockup-asianlink.svg">
+
+                <div class="info-container">
+                        <header>
+                            <h3>AsianLink.AI</h3>
+                            <h6>Client Project</h6>
+                        </header>
+
+                        <div class="text-container">
+                            <p><strong>AsianLink.AI</strong> is your connect to news, public service, and e-commerce. It is an emerging global advanced internet technology company powered by artificial intelligence (AI) that aims to level the playing field for the global Filipino and improve the quality of life around the world through information empowerment, better public service delivery, and innovative access to products and business services.</p>
+                        </div>
+
+                        <div>
+                            <h6>Mobile Application</h6>
+                            <p>The <strong>AsianLink.AI</strong> Mobile App integrates public services, news, and e-commerce all in one platform. It offers a range of features designed to support filipinos in their daily lives.</p>
+                        </div>
+
+                        <div>
+                            <h6>Website</h6>
+                            <p>The <strong>AsianLink.AI</strong> Website is designed to showcase the mobile application. It provides background information about the app’s features, the team behind it, and the overall problems that the application can solve</p>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="black-bg" id="role-section">
+            <div class="section-content">
+                <h3>ROLES AND RESPONSIBILITIES</h3>
+                <ul>
+                    <li><strong>User Interface Design:</strong> Created high-fidelity wireframes, designed components, made responsive designs for varying platforms (desktop, tablet, and mobile), and ensured alignment with the design goals.</li>
+                    <li><strong>Prototype Development:</strong> Built an interactive prototype that can simulate the final product.</li>
+                    <li><strong>Quality Assurance Testing:</strong> Ensured the final product matches the prototype.</li>
+                    <li><strong>Collaboration:</strong> Worked closely with another UI/UX designer who liaised with the product manager and developers, functioning as a junior designer within the team.</li>
+                    <li><strong>Asset Management:</strong> Maintained design assets to ensure they are easily accessible and up-to-date; and created a style guide to assist the developers with developing the application.</li>
+                    <li><strong>Branding and Visual Elements:</strong> Developed the color palette, typography, and other key design elements that aligns with the brand’s identity.</li>
+                    <li><strong>Graphic Design:</strong> Designed standees that will help showcase the AsianLink.AI mobile application.</li>                    
+                </ul>
+            </div>
+        </section>
+
+        <section id="designs-section">
+            <div class="section-content">
+                <div id="standee-container">
+                    <h3>Standee</h3>
+                    <h5>Design 1</h5>
+                    <div class="designs-container">
+                        <img src="images/product-images/AsianLink.AI Standee 1.1.png">
+                        <img src="images/product-images/AsianLink.AI Standee 1.2.png">
+                        <img src="images/product-images/AsianLink.AI Standee 1.3.png">
+                        <img src="images/product-images/AsianLink.AI Standee 1.4.png">
+                    </div>
+                </div>
+
+                <div id="website-container">
+                    <h3>Website</h3>
+                    <div id="designs-container">
+                        <div class="container">
+                            <header><img src="images/icons/computer-default.svg">Desktop</header>
+                            <img src="images/product-images/AsianLink.AI Website.png" id="web-img">
+                        </div>
+
+                        <div class="container">
+                            <header><img src="images/icons/phone-black-default.svg">Mobile</header>
+                            <img src="images/product-images/AsianLink.AI Mobile.png" id="web-mobile-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="mobile-container">
+                    <h3>Mobile App</h3>
+                    <div class="designs-container">
+                        <img src="images/product-images/drawing pin.png">
+                        <div class="text-container">
+                            <h2>PINNED FOR LATER</h2>
+                            <p>We're pinning down the final details.<br>Check back soon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="black-bg" id="other-section">
+            <div class="section-content">
+                <h3>OTHER PROJECTS</h3>
+                <div id="other-container">
+                    <a href="philcentro-page.html" class="project-item">
+                        <img src="images/mockup-images/mockup-centro-front.svg">
+                        <header>
+                            <h6>PHILCENTRO</h6>
+                            <p>CLIENT PROJECT</p>
+                        </header>
+                    </a>
+                    <a href="annejewelry-page.html" class="project-item">
+                        <img src="images/mockup-images/mockup-annejewelry-front.svg">
+                        <header>
+                            <h6>ANNE JEWELRY</h6>
+                            <p>INDEPENDENT PROJECT</p>
+                        </header>
+                    </a>
+                    <a href="hideout-page.html" class="project-item">
+                        <img src="images/mockup-images/mockup-hideout-front.svg">
+                        <header>
+                            <h6>HIDE OUT PRIVATE RESORT</h6>
+                            <p>INDEPENDENT PROJECT</p>
+                        </header>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Last updated on August 2024</p>
+        </footer>
+
+        <script src="js/nav-scroll.js"></script>
+
+    </body>
+
+    
+</html>

@@ -1,0 +1,116 @@
+/*GENERAL CONTAINERS*/
+
+body{
+    position: relative;
+
+    background-color: #F8F8F8;
+    font-family: Poppins;
+
+    margin: 0;
+}
+
+section{
+    padding: 80px 112px;
+}
+
+.section-content{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1440px;
+    min-width: 1080px;
+
+    margin: 0 auto;
+    gap: 24px;
+}
+
+.hero{
+    background-image: linear-gradient(#F8F8F8 75%, #CCCCCC 100%);
+    padding-top: 120px;
+
+    height: 696px;
+}
+
+header{
+    display: inline-flex;
+    gap: 8px;
+}
+
+.container{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.black-bg{
+    background-color: #1A1A1A;
+    color: #F8F8F8;
+}
+
+
+
+
+
+/*BUTTONS and LINKS*/
+a{
+    width: fit-content;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.contact-info button:hover{
+    opacity: 50%;
+}
+
+
+
+
+
+/*TEXT*/
+h1, h2, h3, h4, h5, h6, p{
+    line-height: 120%;
+    margin: 0;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 112px;
+    color: #1A1A1A;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 48px;
+    color: #979797;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 48px;
+}
+
+h4{
+   font-weight: 400;
+   font-size: 32px;
+}
+
+h5{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+h6{
+    font-weight: 600;
+    font-size: 16px;
+    color: #979797;
+}
+
+
+
+
+
+/*FOOTER*/
+footer{
+    text-align: center;
+    font-weight: 300;
+    padding: 12px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Portfolio - Hide Out Private Resort</title>
+
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/general-style.css">
+        <link rel="stylesheet" href="css/product-page.css">
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-content">
+                <a id="logo" href="index.html">UI Portfolio</a>
+                <div class="btn-container">
+                    <button onclick="scrolltoTop()"><img src="images/icons/company-default.svg">HIDE OUT PRIVATE RESORT</button>
+                    <button onclick="scrolltoRole()"><img src="images/icons/role-default.svg">ROLE</button>
+
+                    <div class="dropdown-container">
+                        <button onclick="scrolltoDesigns()"><img src="images/icons/designs-default.svg">DESIGNS<img src="images/icons/arrow-down-default.svg"></button>
+                        <div class="dropdown-links">
+                            <p>Graphic Design</p>
+                            <button onclick="scrolltoFlyerSc()">Flyer</button>
+                            <p>Wireframe</p>
+                            <button onclick="scrolltoWebsite()">Website</button>
+                        </div>
+                    </div>
+
+                    <div id="otherworks-dropdown" class="dropdown-container">
+                        <button onclick="scrolltoOther()"><img src="images/icons/works-default.svg">OTHER WORKS<img src="images/icons/arrow-down-default.svg"></button>
+                        <div class="dropdown-links">
+                            <a href="asianlink-page.html">AsianLink.AI</a>
+                            <a href="philcentro-page.html">PhilCentro</a>
+                            <a href="annejewelry-page.html">Anne Jewelry</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="hero" id="hero-section">
+            <div class="section-content">
+                <img src="images/mockup-images/mockup-hideout.svg">
+
+                <div class="info-container">
+                        <header>
+                            <h3>Hide Out Private Resort</h3>
+                            <h6>Independent Project</h6>
+                        </header>
+
+                        <div class="text-container">
+                            <p><strong>Hide Out Private Resort</strong> is a privately owned establishment in Plaridel, Bulacan dedicated to providing guests with an exclusive and serene retreat.</p>
+                        </div>
+
+                        <div>
+                            <h6>Website</h6>
+                            <p><strong>Hide Out Private Resort</strong> is a website designed to showcase the resort's amenities, rental prices, and contact information.</p>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="black-bg" id="role-section">
+            <div class="section-content">
+                <h3>ROLES AND RESPONSIBILITIES</h3>
+                <ul>
+                    <li><strong>User Interface Design:</strong> Designed the overall user interface, ensuring a cohesive and user-friendly experience across the app.</li>
+                    <li><strong>Design System:</strong> Developed a comprehensive design system, including typography, color schemes, and component styles.</li>
+                    <li><strong>Prototyping:</strong> Created interactive prototypes to visualize and iterate on the app’s design.</li>
+                    <li><strong>Graphic Design:</strong> Designed a flyer that will act as a social media post as well.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="designs-section">
+            <div class="section-content">
+                <div id="flyer-container">
+                    <h3>Flyer</h3>
+                    <img src="images/product-images/Hide Out Flyer.png">
+                </div>
+
+                <div id="website-container">
+                    <h3>Website</h3>
+                    <div id="designs-container">
+                        <div class="container">
+                            <header><img src="images/icons/computer-default.svg">Desktop</header>
+                            <img src="images/product-images/Hide Out Website.png" id="web-img">
+                        </div>
+
+                        <div class="container">
+                            <header><img src="images/icons/phone-black-default.svg">Mobile</header>
+                            <img src="images/product-images/Hide Out Mobile.png" id="web-mobile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="black-bg" id="other-section">
+            <div class="section-content">
+                <h3>OTHER PROJECTS</h3>
+                <div id="other-container">
+                    <a href="asianlink-page.html" class="project-item">
+                        <img src="images/mockup-images/mockup-asianlink-front.svg">
+                        <header>
+                            <h6>ASIANLINK.AI</h6>
+                            <p>CLIENT PROJECT</p>
+                        </header>
+                    </a>
+                    <a href="philcentro-page.html" class="project-item">
+                        <img src="images/mockup-images/mockup-centro-front.svg">
+                        <header>
+                            <h6>PHILCENTRO</h6>
+                            <p>CLIENT PROJECT</p>
+                        </header>
+                    </a>
+                    <a href="annejewelry-page.html" class="project-item">
+                        <img src="images/mockup-images/mockup-annejewelry-front.svg">
+                        <header>
+                            <h6>ANNE JEWELRY</h6>
+                            <p>INDEPENDENT PROJECT</p>
+                        </header>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Last updated on August 2024</p>
+        </footer>
+
+        <script src="js/nav-scroll.js"></script>
+    </body>
+</html>

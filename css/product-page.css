@@ -1,0 +1,290 @@
+
+/*HERO SECTION*/
+#hero-section{
+    display: flex;
+    align-items: center;
+}
+
+#hero-section .section-content{
+    display: inline-flex;
+    flex-direction: row;
+
+    align-items: center;
+    gap: 80px;
+}
+
+.info-container{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+
+#hero-section header{
+    flex-direction: column;
+    gap: 0;
+}
+
+#hero-section h3{
+    font-weight: 600;
+}
+
+#hero-section p{
+    display: inline;
+    color: #666666;
+    line-height: 180%;
+}
+
+header h6{
+    font-size: 20px;
+}
+
+strong{
+    color: #1a1a1a;
+}
+
+#hero-section p, #hero-section h6{
+    line-height: 180%;
+}
+
+
+
+
+
+/*ROLES*/
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    margin: 24px 40px;
+}
+
+li{
+    font-weight: 400;
+    color: #CCCCCC;
+}
+
+li strong{
+    font-weight: 500;
+    color: #F8F8F8;
+
+}
+
+
+
+
+
+/*DESIGN*/
+
+/*ASIANLINK*/
+#designs-section h5{
+    font-weight: 400;
+}
+
+#designs-section .section-content{
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+}
+
+
+
+#standee-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#standee-container .designs-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#standee-container img{
+    width: calc(25% - 15px);
+}
+
+
+
+#website-container{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#website-container header{
+    justify-content: center;
+    font-size: 20px;;
+}
+
+#website-container .container{
+    gap: 24px;
+}
+
+#designs-container{
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+}
+
+#web-img{
+    width: 600px
+}
+
+#web-mobile-img{
+    width: 200px;
+}
+
+
+
+#mobile-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#mobile-container .designs-container{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 80px;
+    gap: 32px;
+
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
+}
+
+#mobile-container img{
+    width: 120px;
+}
+
+#mobile-container h2{
+    font-weight: 600;
+    font-size: 40px;
+    color: #1a1a1a;
+}
+
+#mobile-container p{
+    font-size: 24px;
+    line-height: 150%;
+    color: #666666;
+}
+
+#mobile-container .text-container{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+/*PHILCENTRO*/
+#callingcard-container{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#callingcard-container .designs-container{
+    display: inline-flex;
+    gap: 24px;
+}
+
+#callingcard-container img{
+    width: calc(50% - 12px);
+}
+
+
+
+#letterhead-container{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#letterhead-container #designs-container{
+    display: inline-flex;
+    gap: 24px;    
+}
+
+#letterhead-container .container{
+    display: inline-flex;
+    gap: 24px;
+}
+
+#letterhead-container .container img{
+    width: 100%;
+}
+
+
+
+#brochure-container{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#brochure-container .designs-container{
+    display: inline-flex;
+    gap: 24px;
+}
+
+#brochure-container img{
+    width: calc(50% - 12px);
+}
+
+
+
+#flyer-container{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.screen-container{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+
+
+
+/*OTHER PROJECTS*/
+#other-container {
+    display: inline-flex;
+    gap: 80px;
+}
+
+.project-item{
+    text-align: center;
+    width: calc(33.33% - 40px);
+}
+
+.project-item header{
+    flex-direction: column;
+}
+
+.project-item h6{
+    font-size: 24px;
+    font-weight: 400;
+    color: #F8F8F8;
+}
+
+.project-item p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #535353;
+}
+
+
+
+.project-item:hover{
+    filter: drop-shadow(0 0 40px #F8F8F824)
+}
