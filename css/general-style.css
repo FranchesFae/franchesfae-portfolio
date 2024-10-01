@@ -48,8 +48,6 @@ header{
 
 
 
-
-
 /*BUTTONS and LINKS*/
 a{
     width: fit-content;
@@ -106,11 +104,20 @@ h6{
 
 
 
-
-
 /*FOOTER*/
 footer{
     text-align: center;
     font-weight: 300;
     padding: 12px;
+}
+
+
+
+
+
+@media screen and (max-width: 1220px) {
+    body{
+        overflow: hidden;
+    }
+    
 }
