@@ -59,7 +59,7 @@
 }
 
 .works-block-container h4, .works-block-container h6{
-    white-space: wordwrap;
+    white-space: nowrap;
 }
 
 .works-info-container{
@@ -74,12 +74,6 @@
     color: #F8F8F8;
     gap: 4px;
 }
-
-/*
-.project-btn:hover, .project-btn img:hover{
-    filter: drop-shadow(0 0 12px #F8F8F890);
-}
-*/
 
 .project-btn:hover, .project-btn:hover img{
     filter: drop-shadow(0 0 12px #F8F8F890);
