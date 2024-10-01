@@ -267,6 +267,10 @@ li strong{
     width: calc(33.33% - 40px);
 }
 
+.project-item img{
+    width: 100%;
+}
+
 .project-item header{
     flex-direction: column;
 }

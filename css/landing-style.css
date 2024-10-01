@@ -42,6 +42,10 @@
     gap: 20px;
 }
 
+#works-section h4, #works-section h6{
+    white-space: nowrap;
+}
+
 .works-container{
     display: inline-flex;
     align-items: center;
@@ -56,10 +60,6 @@
     gap: 40px;
 
     width: 100%;
-}
-
-.works-block-container h4, .works-block-container h6{
-    white-space: nowrap;
 }
 
 .works-info-container{
