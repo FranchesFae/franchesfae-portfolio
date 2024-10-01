@@ -58,6 +58,10 @@
     width: 100%;
 }
 
+.works-block-container h4, .works-block-container h6{
+    white-space: wordwrap;
+}
+
 .works-info-container{
     display: inline-flex;
     flex-direction: column;
