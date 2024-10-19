@@ -1,0 +1,454 @@
+
+/*LANDING STYLE*/
+
+/*----------GENERAL----------*/
+/*TAGS*/
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*TEXTS*/
+h1{
+    font-weight: 700;
+    font-size: 112px;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 48px;
+
+    color: #979797;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 48px;
+}
+
+h4{
+    font-weight: 400;
+    font-size: 32px;
+}
+
+h5{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+h6{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+
+
+/*----------HERO SECTION----------*/
+/*CONTAINER*/
+#hero-section header{
+    margin-top: 300px;
+}
+
+
+
+/*TEXT*/
+#hero-section h6{
+    color: #979797;
+}
+
+
+
+/*IMG*/
+#linkedin-icon{
+    display: inline-block;
+    height: 24px;
+
+    margin: 4px 0;
+}
+
+#linkedin-icon:hover{
+    opacity: 50%;
+}
+
+
+
+
+
+
+/*----------WORKS SECTION----------*/
+/*CONTAINER*/
+.works-content{
+    gap: 60px;
+}
+
+.works-content header{
+    gap: 8px;
+    align-items: flex-end;
+}
+
+.works-container{
+    gap: 80px;
+
+    align-items: center;
+}
+
+.workInfo-con{
+    gap: 40px;
+}
+
+.workInfo{
+    gap: 8px;
+}
+
+.appInfo{
+    gap: 20px;
+}
+
+
+
+/*IMG*/
+.mockup-img, .mockupWeb-img, .mockupMobile-img{
+    width: 35%;
+    height: 500px;
+
+    object-fit: contain;
+}
+
+.mockupMobile-img{
+    display: none;
+}
+
+
+
+/*BUTTON*/
+.project-btn{
+    gap: 4px;
+}
+
+.project-btn:hover, .project-btn:hover img{
+    color: #F8F8F8;
+    filter: drop-shadow(0 0 12px #F8F8F890);
+}
+
+
+
+
+
+/*----------CREDENTIAL SECTION----------*/
+/*GENERAL*/
+#credentials-section .section-content{
+    gap: 80px;
+}
+
+.credentials-content{
+    gap: 24px;
+}
+
+.list-con{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list-con li{
+    text-align: center;
+}
+
+
+
+/*-----EXPERIENCE-----*/
+#experience-con{
+    margin: 16px 40px;
+}
+
+.experience-list{    
+    justify-content: space-between;
+}
+
+.imageLine{
+    align-items: center;
+}
+
+.expInfo{
+    width: 60%;
+}
+
+/*TEXT*/
+.expYear{
+    width: 40px;
+    color: #979797;
+}
+
+.experience-list h5{
+    line-height: 150%;
+}
+
+.experience-list p{
+    color: #979797;
+}
+
+/*IMAGE*/
+.line{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    background-color: #CCCCCC;
+    height: 150px;
+    width: 2px;
+}
+
+#last-line:after{
+    content: '';
+    position: absolute;
+
+    bottom: 0;
+    left: -3px;
+
+    height: 8px;
+    width: 8px;
+    border-radius: 5px;
+    background: #CCCCCC;
+}
+
+
+
+/*-----SOFTWARE and LANGUAGE-----*/
+.software-con, .language-con, .skills-con{
+    margin: 16px 0;
+}
+
+.software-con li{
+    width: calc(16.66% - 16px);
+}
+
+.language-con li{
+    width: calc(33.33% - 16px);
+}
+
+.software-con p, .language-con p{
+    line-height: 120%;
+}
+
+
+
+/*-----SKILLS-----*/
+.skills-con{
+    gap: 80px 0;
+}
+
+.skills-con li{
+    width: calc(33.33% - 40px);
+}
+
+
+
+
+
+/*----------CREDENTIAL SECTION----------*/
+#contact-section .section-content{
+    justify-content: space-between;
+}
+
+.contact-content{
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 16px 24px;
+    width: 350px;
+
+    border-bottom: 1.5px solid #F8F8F8;
+}
+
+
+
+/*MOBILE SCREEN*/
+@media screen and (max-width: 1220px) {
+    /*GENERAL*/
+    h1{
+        font-size: 64px;
+
+        line-height: 100%;
+    }
+    
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+    
+    h4{
+        font-size: 16px;
+    }
+
+    h5{
+        font-size: 14px;
+    }
+
+    h6, p{
+        font-size: 12px;
+    }
+
+    a{
+        font-size: 12px;
+    }
+
+    
+    
+    
+
+    /*----------HERO SECTION----------*/
+    /*CONTAINER*/
+    #hero-section{
+        padding-top: 80px;
+    }
+
+    #hero-section header{
+        gap: 12px;
+
+        margin-top: 200px;
+    }
+
+    /*TEXT*/
+    #hero-section p{
+        line-height: 120%;
+    }
+
+    /*IMG*/
+    #linkedin-icon img{
+        width: 20px;
+    }
+
+    /*BUTTON and LINKS*/
+    #linkedin-icon{
+        height: 20px;
+    }
+
+    #linkedin-icon:hover{
+        opacity: initial;
+    }
+
+    /*IDs*/
+    #mobile-break{
+        display: unset;
+    }
+    
+
+
+    
+
+    /*----------WORKS SECTION----------*/
+    /*CONTAINER*/
+    .works-container.responsive-row-container{
+        flex-direction: column;
+
+        gap: 40px;
+    }
+
+    .workInfo-con{
+        gap: 20px;
+    }
+
+    /*IMG*/
+    .mockup-img, .mockupMobile-img{
+        width: 80%;
+        height: fit-content;
+    }
+
+    .mockupMobile-img{
+        display: unset;
+    }
+
+    .mockupWeb-img{
+        display: none;
+    }
+
+    .project-btn img{
+        width: 16px;
+    }
+
+    /*BUTTON*/
+    .project-btn:hover, .project-btn:hover img{
+        filter: initial;
+    }
+
+    
+
+
+
+    /*----------CREDENTIAL SECTION----------*/
+    #credentials-section .section-content{
+        gap: 60px;
+    }
+
+
+
+    /*---EXPERIENCE---*/
+    #experience-con{
+        margin: 0 16px;
+    }
+
+    .imageLine img{
+        width: 18px;
+    }
+
+    .line{
+        width: 1px;
+        height: 120px;
+    }
+
+    #last-line:after{
+        height: 5px;
+        width: 5px;
+
+        left: -2px;
+    }
+
+
+
+    /*---SOFTWARE and LANGUAGE---*/
+    .software-con, .language-con{
+        margin: 0;
+    }
+
+    .software-con{
+        gap: 16px 0;
+    }
+
+    .software-con li{
+        width: calc(33.33% - 16px);
+    }
+
+    .software-con img, .language-con img{
+        width: 60px;
+    }
+
+
+
+    /*---SKILLS---*/
+    .skills-con{
+        margin: 0;
+        gap: 24px 0;
+    }
+
+    .skills-con img{
+        width: 120px;
+    }
+
+    .skills-con li{
+        width: calc(50% - 16px);
+    }
+    
+    
+
+
+    
+    /*----------CONTACT SECTION----------*/
+    .contact-content{
+        width: calc(100% - 48px);
+    }
+}

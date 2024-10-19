@@ -1,0 +1,215 @@
+/*NAVIGATION BAR*/
+
+/*TAGS*/
+nav{
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #F8F8F8;
+
+    width: calc(100% - 224px);
+    padding: 40px 112px;
+    
+    z-index: 10;
+}
+
+
+
+/*CONTAINERS*/
+#main-nav{
+    justify-content: space-between;
+    width: 100%;
+    
+    max-width: 1440px;
+}
+
+#mobile-nav{
+    display: none;
+    
+        
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    max-height: 100vh;
+}
+
+.dropdown-con{
+    margin: 8px 0 0;
+
+    gap: 8px;
+}
+
+#designsDropdown-con{
+    display: none;
+    width: 145.69px;
+
+    white-space: nowrap;
+}
+
+#otherWorksDropdown-con{
+    display: none;
+    width: 185.47px;
+
+    white-space: nowrap;
+}
+
+#designsDropdown-btn:hover #designsDropdown-con{
+    display: flex;
+}
+
+#otherWorksDropdown-btn:hover #otherWorksDropdown-con{
+    display: flex;
+}
+
+.mobileDropdown-con{
+    gap: 8px;
+}
+
+#mobileDesignsDropdown-con, #mobileOtherWorksDropdown-con{
+    display: none;
+}
+
+
+
+/*BUTTONS*/
+#mobileMenu-btn{
+    display: none;
+}
+
+nav button, nav a{
+    display: flex;
+    align-items: center;
+    
+    font-size: 14px;
+
+    gap: 12px;
+
+    height: 40px;
+    
+    color: #1a1a1a;
+}
+
+nav a:hover{
+    opacity: 50%;
+}
+
+#main-nav .button-con button, #main-nav .button-con button a{
+    padding: 0 16px;
+}
+
+#logo-btn{
+    line-height: 40px;
+    font-size: 32px;
+    font-weight: 600;
+
+    white-space: nowrap;
+}
+
+#logo-btn:hover{
+    opacity: 50%;
+}
+
+.mobileDropdown-con button{
+    padding: 0 16px;
+}
+
+.mobileDropdown-con a{
+    padding: 0 16px;
+}
+
+.mobileDropdown-btn{
+    justify-content: space-between;
+}
+
+
+
+/*TEXT*/
+nav p{
+    font-size: 14px;
+
+    line-height: 40px;
+    height: 40px;
+
+    color: #979797;
+}
+
+#main-nav p{
+    padding: 0 16px;
+}
+
+.mobileDropdown-con p{
+    padding: 0 16px;
+}
+
+
+
+/*IMAGES*/
+#designsArrow-icon, #otherWorksArrow-icon{
+    rotate: 90deg;
+}
+
+#designsArrow-icon.active{
+    rotate: initial;
+}
+
+#otherWorksArrow-icon.active{
+    rotate: initial;
+}
+
+#mobileDesignsDropdown-con.active, #mobileOtherWorksDropdown-con.active{
+    display: flex;
+}
+
+
+
+
+
+/*MOBILE VIEW*/
+@media screen and (max-width: 1220px) {
+    /*TAGS*/
+    nav{
+        width: calc(100% - 40px);
+        padding: 20px 20px;      
+
+        gap: 16px;
+    }
+
+    /*CONTAINERS*/
+    #main-nav{
+        justify-content: initial;
+        gap: 12px;
+    }
+
+    #mobile-nav.active{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        justify-content: left;
+
+        width: 100%;
+    }
+
+    nav .button-con{
+        display: none;
+    }
+    
+
+
+    /*BUTTONS*/
+    #mobileMenu-btn{
+        display: flex;
+    }
+
+    #logo-btn{
+        font-size: 24px;
+    }
+
+    #logo-btn:hover{
+        opacity: initial;
+    }
+
+}

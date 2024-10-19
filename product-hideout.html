@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <title>Franches Fae - Hide Out Private Resort</title>
+
+        <link rel="stylesheet" href="css/general-style.css">
+
+        <link rel="stylesheet" href="css/navbar-style.css">
+        <link rel="stylesheet" href="css/product-style.css">
+    </head>
+
+    <body>
+        <nav>
+            <div id="main-nav" class="row-container">
+                <button id="mobileMenu-btn" onclick="displayNav()"><img src="images/icons/menu-default.svg"></button>
+                <a href="index.html" id="logo-btn">UI Portfolio</a>
+
+                <div class="button-con row-container">
+                    <button onclick="scrolltoTop()"><img src="images/icons/company-default.svg">HIDE OUT PRIVATE RESORT</button>
+                    <button onclick="scrolltoRole()"><img src="images/icons/role-default.svg">ROLE</button>
+                    <div id="designsDropdown-btn" class="container">
+                        <button onclick="scrolltoDesigns()"><img src="images/icons/designs-default.svg">DESIGNS<img src="images/icons/arrow-down-default.svg"></button>
+                        <div class="dropdown-con container" id="designsDropdown-con">
+                            <p>Graphic Design</p>
+                            <button onclick="">Flyer</button>
+                            <p>Wireframe</p>
+                            <button onclick="">Landing Page</button>
+                        </div>
+                    </div>
+                    <div id="otherWorksDropdown-btn" class="container">
+                        <button onclick="scrolltoOtherWorks()"><img src="images/icons/works-default.svg">OTHER WORKS<img src="images/icons/arrow-down-default.svg"></button>
+                        <div class="dropdown-con container" id="otherWorksDropdown-con">
+                            <a href="product-asianlink.html">AsianLink.AI</a>
+                            <a href="product-philcentro.html">PhilCentro</a>
+                            <a href="product-annejewelry.html">Anne Jewelry</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mobile-nav" class="row-container">
+                <button onclick="scrolltoTop()"><img src="images/icons/company-default.svg">HIDE OUT PRIVATE RESORT</button>
+                    <button onclick="scrolltoMobileRole()"><img src="images/icons/role-default.svg">ROLE</button>
+                    <div class="mobileDropdown-btn row-container">
+                        <button onclick="scrolltoMobileDesigns()">
+                            <img src="images/icons/designs-default.svg">
+                            DESIGNS
+                            <button onclick="clicktoDropDesigns()" id="designsArrow-icon"><img src="images/icons/arrow-down-default.svg"></button>
+                        </button>
+                    </div>
+                    <div class="mobileDropdown-con container" id="mobileDesignsDropdown-con">
+                        <p>Graphic Design</p>
+                        <button onclick="">Flyer</button>
+                        <p>Wireframe</p>
+                        <button onclick="">Landing Page</button>
+                    </div>
+
+                    <div class="mobileDropdown-btn row-container">
+                        <button onclick="scrolltoMobileOtherWorks()">
+                            <img src="images/icons/works-default.svg">
+                            OTHER WORKS
+                            <button onclick="clicktoDropOtherWorks()" id="otherWorksArrow-icon"><img src="images/icons/arrow-down-default.svg"></button>
+                        </button>
+                    </div>
+                    <div class="mobileDropdown-con container" id="mobileOtherWorksDropdown-con">
+                        <a href="product-asianlink.html">AsianLink.AI</a>
+                        <a href="product-philcentro.html">PhilCentro</a>
+                        <a href="product-annejewelry.html">Anne Jewelry</a>
+                    </div>
+            </div>
+        </nav>   
+
+        <script src="js/nav-action.js"></script>
+
+        <section id="hero-section">
+            <div class="section-content responsive-row-container">
+                <img src="images/mockup-images/mockup-hideout.png">
+                <div class="paragraph-con container">
+                    <header>
+                        <h2>Hide Out Private Resort</h2>
+                        <h5>Independent Project</h5>
+                    </header>
+
+                    <p><strong>Hide Out Private Resort</strong> is a privately owned establishment in Plaridel, Bulacan dedicated to providing guests with an exclusive and serene retreat.</p>
+
+                    <div>
+                        <h6>Website</h6>
+                        <p>The <strong>Hide Out Private Resort</strong> is a website designed to showcase the resort's amenities, rental prices, and contact information.</p>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <section id="role-section" class="black-bg">
+            <div class="section-content container">
+                <h3>ROLES AND RESPONSIBILITIES</h3>
+
+                <ul class="container">
+                    <li><strong>User Interface Design:</strong> Designed the overall user interface, ensuring a cohesive and user-friendly experience across the app.</li>
+                    <li><strong>Prototyping:</strong> Created interactive prototypes to visualize and iterate on the app’s design.</li>                                       
+                    <li><strong>Branding and Visual Elements:</strong> Developed a comprehensive design system, including typography, color schemes, and component styles.</li>
+                    <li><strong>Graphic Design:</strong> Designed a flyer that will act as a social media post as well.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="designs-section">
+            <div class="section-content container">
+                <div class="designs-content container">
+                    <h3>FLYER</h3>
+                    <img src="images/product-images/Hide Out Flyer.png">
+                </div>
+                
+                
+                <div class="designs-content container">
+                    <h3>LANDING PAGE</h3>
+                    <div class="row-container">
+                        <div class="websites-con container" id="webDesktop-con">
+                            <header>
+                                <img src="images/icons/computer-default.svg">
+                                <p>Desktop</p>
+                            </header>
+                            <img class="website-img" id="designWeb-img" src="images/product-images/Hide Out Website.png"> 
+                        </div>
+                        <div class="websites-con container" id="webMobile-con">
+                            <header>
+                                <img src="images/icons/phone-black-default.svg">
+                                <p>Mobile</p>
+                            </header>
+                            <img class="website-img" id="designMobile-img" src="images/product-images/Hide Out Mobile.png"> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="otherWorks-section" class="black-bg">
+            <div class="section-content container">
+                <h3>OTHER PROJECTS</h3>
+                <div class="otherWorks-content row-container">
+                    <a href="product-asianlink.html" class="otherWorks-con container">
+                        <img src="images/mockup-images/mockup-asianlink-front.svg">
+                        <header>
+                            <h4>ASIANLINK.AI</h4>
+                            <h6>CLIENT <br id="mobile-break">PROJECT</h6>
+                        </header>
+                    </a>
+                    
+                    <a href="product-philcentro.html" class="otherWorks-con container">
+                        <img src="images/mockup-images/mockup-centro-front.svg">
+                        <header>
+                            <h4>PHILCENTRO</h4>
+                            <h6>CLIENT <br id="mobile-break">PROJECT</h6>
+                        </header>
+                    </a>
+
+                    <a href="product-annejewelry.html" class="otherWorks-con container">
+                        <img src="images/mockup-images/mockup-annejewelry-front.svg">
+                        <header>
+                            <h4>ANNE JEWELRY</h4>
+                            <h6>INDEPENDENT PROJECT</h6>
+                        </header>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Last updated on August 2024</p>
+        </footer>
+    </body>
+</HTML>

@@ -1,0 +1,361 @@
+/*PRODUCT STYLE*/
+
+/*TEXTS*/
+h2{
+    font-weight: 600;
+    font-size: 48px;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 48px;
+}
+
+h4{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+h5{
+    font-weight: 600;
+    font-size: 20px;
+
+    color: #979797;
+}
+
+h6{
+    font-weight: 600;
+    font-size: 16px;
+
+    color: #666666;
+}
+
+
+
+
+
+/*----------HERO SECTION----------*/
+#hero-section .section-content{
+    gap: 80px;
+    height: 580px;
+
+    align-items: center;
+}
+
+.paragraph-con{
+    gap: 24px;
+
+
+    width: 100%;
+}
+
+
+/*TEXT*/
+#hero-section h6{
+    line-height: 180%;
+}
+
+
+/*IMG*/
+#hero-section img{
+    width: 40%;
+}
+
+
+
+
+
+/*----------ROLE SECTION----------*/
+#role-section ul{
+    gap: 24px;
+
+    padding: 0 0 0 80px;
+}
+
+#role-section li{
+    line-height: 180%;
+    color: #CCCCCC;
+}
+
+
+/*TEXT*/
+#role-section strong{
+    font-weight: 500;
+    color: #f8f8f8;
+}
+
+
+
+
+
+/*----------DESIGNS SECTION----------*/
+#designs-section .section-content{
+    gap: 160px;
+}
+
+.designs-content{
+    gap: 24px;
+}
+
+.designs-content header{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.design-con{
+    justify-content: space-between;
+}
+
+/*ONE*/
+.oneImgDesigns-con{
+    gap: 24px;
+}
+
+.oneImgDesigns-con img{
+    width: 100%;
+}
+
+/*TWO*/
+.twoImgDesigns-con{
+    gap: 24px;
+}
+
+.twoImgDesigns-con img{
+    width: calc(50% - 20px);
+}
+
+
+/*FOUR*/
+.fourImg-con img{
+    width: calc(25% - 20px);
+}
+
+
+/*WEBSITES*/
+.websites-con{
+    gap: 8px;
+}
+
+.website-img{
+    width: 100%;
+    margin:  0 auto;
+}
+
+#webDesktop-con{
+    width: 55%;
+}
+
+#webMobile-con{
+    width: 45%;
+}
+
+#designMobile-img{
+    width: 40%;
+}
+
+/*TBA*/
+.TBA-con{
+    align-items: center;
+    gap: 24px;
+
+    margin: 40px;
+}
+
+.TBA-con header{
+    text-align: center;
+}
+
+
+
+
+
+
+/*TEXT*/
+.TBA-con h4{
+    font-weight: 600;
+}
+
+.TBA-con p{
+    color: #666666;
+    line-height: 150%;
+}
+
+
+
+
+
+/*----------OTHER WORKS SECTION----------*/
+.otherWorks-content{
+    gap: 40px;
+}
+
+.otherWorks-con{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+
+    gap: 8px;
+}
+
+.otherWorks-con:hover, .otherWorks-con:hover h6{
+    filter: drop-shadow(0 0 32px #F8F8F825);
+}
+
+.otherWorks-con header{
+    display: flex;
+    flex-direction: column;
+
+    gap: 4px;
+}
+
+.otherWorks-con h4{
+    white-space: nowrap;
+}
+
+.otherWorks-con img{
+    min-width: 300px;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1220px) {
+    /*TEXTS*/
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 12px;
+    }
+
+    h5{
+        font-size: 14px;
+    }
+
+    h6, p, li{
+        font-size: 12px;
+    }
+
+
+
+    /*-----HERO-SECTION-----*/
+    #hero-section .section-content{
+        gap: 40px;
+        height: initial;
+    }
+
+    #hero-section{
+        padding-top: 80px;
+    }
+
+    #hero-section img{
+        min-width: 300px;
+    }
+
+    .paragraph-con{    
+        min-width: initial;
+        max-width: initial;
+    }
+
+
+
+    /*-----ROLE-SECTION-----*/
+    #role-section ul{   
+        margin: 0;
+        padding: 0 0 0 32px;
+    }
+
+
+
+    /*-----DESIGNS SECTION-----*/
+    #designs-section .section-content{
+        gap: 60px;
+    }
+
+    .designs-content{
+        gap: 16px;
+    }
+
+    #designs-section header img{
+        width: 16px;
+    }
+
+    /**/
+    .fourImg-con.design-con{
+        flex-wrap: wrap;
+
+        gap: 8px;
+    } 
+
+    .fourImg-con img{
+        width: calc(50% - 4px);
+    }
+
+    /**/
+    .TBA-con img{
+        width: 80px;
+    }
+
+    /*ONE*/
+    .oneImgDesigns-con{
+        gap: 8px;
+    }
+
+    .oneImgDesigns-con img{
+        width: 100%;
+    }
+
+    .twoImgDesigns-con{
+        gap: 8px;
+    }
+
+    .twoImgDesigns-con img{
+        width: calc(50% - 4px);
+    }
+
+    .letterheads-con{        
+        width: calc(50% - 4px);
+        gap: 8px;
+    }
+
+    .TBA-con h4{
+        font-size: 20px;
+    }
+
+
+
+    /*-----OTHER WORKS-SECTION-----*/
+    .otherWorks-content{
+        gap: 8px;
+    }
+
+    .otherWorks-content header{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        justify-content: center;
+    }
+    
+    .otherWorks-con h4{
+        white-space: initial;
+    }
+
+    .otherWorks-con img{
+        min-width: 100px;
+        width: 80%;
+    } 
+}

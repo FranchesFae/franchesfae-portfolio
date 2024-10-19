@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <title>Franches Fae - Anne Jewelry</title>
+
+        <link rel="stylesheet" href="css/general-style.css">
+
+        <link rel="stylesheet" href="css/navbar-style.css">
+        <link rel="stylesheet" href="css/product-style.css">
+    </head>
+
+    <body>
+        <nav>
+            <div id="main-nav" class="row-container">
+                <button id="mobileMenu-btn" onclick="displayNav()"><img src="images/icons/menu-default.svg"></button>
+                <a href="index.html" id="logo-btn">UI Portfolio</a>
+
+                <div class="button-con row-container">
+                    <button onclick="scrolltoTop()"><img src="images/icons/company-default.svg">ANNE JEWELRY</button>
+                    <button onclick="scrolltoRole()"><img src="images/icons/role-default.svg">ROLE</button>
+                    <div id="designsDropdown-btn" class="container">
+                        <button onclick="scrolltoDesigns()"><img src="images/icons/designs-default.svg">DESIGNS<img src="images/icons/arrow-down-default.svg"></button>
+                        <div class="dropdown-con container" id="designsDropdown-con">
+                            <p>Wireframe</p>
+                            <button onclick="">Landing Page</button>
+                            <button onclick="">Login Page</button>
+                            <button onclick="">Sign Up Page</button>
+                            <button onclick="">Shop Page</button>
+                            <button onclick="">Check Out Page</button>
+                        </div>
+                    </div>
+                    <div id="otherWorksDropdown-btn" class="container">
+                        <button onclick="scrolltoOtherWorks()"><img src="images/icons/works-default.svg">OTHER WORKS<img src="images/icons/arrow-down-default.svg"></button>
+                        <div class="dropdown-con container" id="otherWorksDropdown-con">
+                            <a href="product-asianlink.html">AsianLink.AI</a>
+                            <a href="product-philcentro.html">PhilCentro</a>
+                            <a href="product-hideout.html">Hide Out Private Resort</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mobile-nav" class="row-container">
+                <button onclick="scrolltoTop()"><img src="images/icons/company-default.svg">ANNE JEWELRY</button>
+                    <button onclick="scrolltoMobileRole()"><img src="images/icons/role-default.svg">ROLE</button>
+                    <div class="mobileDropdown-btn row-container">
+                        <button onclick="scrolltoMobileDesigns()">
+                            <img src="images/icons/designs-default.svg">
+                            DESIGNS
+                            <button onclick="clicktoDropDesigns()" id="designsArrow-icon"><img src="images/icons/arrow-down-default.svg"></button>
+                        </button>
+                    </div>
+                    <div class="mobileDropdown-con container" id="mobileDesignsDropdown-con">
+                        <p>Wireframe</p>
+                        <button onclick="">Landing Page</button>
+                        <button onclick="">Login Page</button>
+                        <button onclick="">Sign Up Page</button>
+                        <button onclick="">Shop Page</button>
+                        <button onclick="">Check Out Page</button>
+                    </div>
+
+                    <div class="mobileDropdown-btn row-container">
+                        <button onclick="scrolltoMobileOtherWorks()">
+                            <img src="images/icons/works-default.svg">
+                            OTHER WORKS
+                            <button onclick="clicktoDropOtherWorks()" id="otherWorksArrow-icon"><img src="images/icons/arrow-down-default.svg"></button>
+                        </button>
+                    </div>
+                    <div class="mobileDropdown-con container" id="mobileOtherWorksDropdown-con">
+                        <a href="product-asianlink.html">AsianLink.AI</a>
+                        <a href="product-philcentro.html">PhilCentro</a>
+                        <a href="product-hideout.html">Hide Out Private Resort</a>
+                    </div>
+            </div>
+        </nav>   
+
+        <script src="js/nav-action.js"></script>
+
+        <section id="hero-section">
+            <div class="section-content responsive-row-container">
+                <img src="images/mockup-images/mockup-annejewelry.png">
+                <div class="paragraph-con container">
+                    <header>
+                        <h2>Anne Jewelry</h2>
+                        <h5>Independent Project</h5>
+                    </header>
+
+                    <p><strong>Anne Jewelry</strong> is a small, independently run jewelry brand inspired by Anne of Green Gables. Creating classic pieces that capture the charm and spirit of Anne’s world.</p>
+
+                    <div>
+                        <h6>Website</h6>
+                        <p>The <strong>Anne Jewelry</strong> Website is an e-commerce platform that sells jewelry inspired by the Anne of Green Gables series. The website combines storybook aesthetics with classic designs, offering a unique shopping experience.</p>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <section id="role-section" class="black-bg">
+            <div class="section-content container">
+                <h3>ROLES AND RESPONSIBILITIES</h3>
+
+                <ul class="container">
+                    <li><strong>User Interface Design:</strong> Created high-fidelity wireframes, designed components, and ensured alignment with the design goals.</li>
+                    <li><strong>Prototype Development:</strong> Built an interactive prototype that can simulate the final product.</li>
+                    <li><strong>Asset Management:</strong> Maintained design assets to ensure they are easily accessible and up-to-date.</li>
+                    <li><strong>Branding and Visual Elements:</strong> Developed the logo, color palette, typography, and other key design elements that aligns with the brand’s identity.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="designs-section">
+            <div class="section-content container">
+                <div class="designs-content container">
+                    <h3>LANDING PAGE</h3>
+                    <img src="images/product-images/Anne Jewelry Landing Page.png">
+                </div>
+                
+                <div class="designs-content container">
+                    <h3>LOGIN PAGE</h3>
+                    <img src="images/product-images/Anne Jewelry Login Page.png">
+                </div>
+
+                <div class="designs-content container">
+                    <h3>SIGN UP PAGE</h3>
+                    <img src="images/product-images/Anne Jewelry Sign Up Page 1.png">
+                    <img src="images/product-images/Anne Jewelry Sign Up Page 2.png">
+                    <img src="images/product-images/Anne Jewelry Sign Up Page 3.png">
+                    <img src="images/product-images/Anne Jewelry Sign Up Page 4.png">
+                </div>
+
+                <div class="designs-content container">
+                    <h3>SHOP PAGE</h3>
+                    <img src="images/product-images/Anne Jewelry Shop Page 1.png">
+                    <img src="images/product-images/Anne Jewelry Shop Page 2.png">
+                    <img src="images/product-images/Anne Jewelry Shop Page 3.png">
+                    <img src="images/product-images/Anne Jewelry Shop Page 4.png">
+                </div>
+
+                <div class="designs-content container">
+                    <h3>CHECK OUT PAGE</h3>
+                    <img src="images/product-images/Anne Jewelry Check Out Page 1.png">
+                    <img src="images/product-images/Anne Jewelry Check Out Page 2.png">
+                    <img src="images/product-images/Anne Jewelry Check Out Page 3.png">
+                </div>
+            </div>
+        </section>
+
+        <section id="otherWorks-section" class="black-bg">
+            <div class="section-content container">
+                <h3>OTHER PROJECTS</h3>
+                <div class="otherWorks-content row-container">
+                    <a href="product-asianlink.html" class="otherWorks-con container">
+                        <img src="images/mockup-images/mockup-asianlink-front.svg">
+                        <header>
+                            <h4>ASIANLINK.AI</h4>
+                            <h6>CLIENT <br id="mobile-break">PROJECT</h6>
+                        </header>
+                    </a>
+                    
+                    <a href="product-philcentro.html" class="otherWorks-con container">
+                        <img src="images/mockup-images/mockup-centro-front.svg">
+                        <header>
+                            <h4>PHILCENTRO</h4>
+                            <h6>CLIENT <br id="mobile-break">PROJECT</h6>
+                        </header>
+                    </a>
+
+                    <a href="product-hideout.html" class="otherWorks-con container">
+                        <img src="images/mockup-images/mockup-hideout-front.svg">
+                        <header>
+                            <h4>HIDE OUT PRIVATE RESORT</h4>
+                            <h6>INDEPENDENT PROJECT</h6>
+                        </header>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Last updated on August 2024</p>
+        </footer>
+    </body>
+</HTML>

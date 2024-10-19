@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <title>Franches Fae</title>
+
+        <link rel="stylesheet" href="css/general-style.css">
+
+        <link rel="stylesheet" href="css/navbar-style.css">
+        <link rel="stylesheet" href="css/landing-style.css">
+    </head>
+
+    <body>
+        <nav>
+            <div id="main-nav" class="row-container">
+                <button id="mobileMenu-btn" onclick="displayNav()"><img src="images/icons/menu-default.svg"></button>
+                <button id="logo-btn" onclick="scrolltoTop()">UI Portfolio</button>
+
+                <div class="button-con row-container">
+                    <button onclick="scrolltoWorks()"><img src="images/icons/works-default.svg">MY WORKS</button>
+                    <button onclick="scrolltoCredentials()"><img src="images/icons/credential-default.svg">CREDENTIALS</button>
+                    <button onclick="scrolltoContact()"><img src="images/icons/contact-default.svg">CONTACT</button>
+                </div>
+            </div>
+
+            <div id="mobile-nav">
+                <button onclick="scrolltoMobileWorks()"><img src="images/icons/works-default.svg">MY WORKS</button>
+                <button onclick="scrolltoMobileCredentials()"><img src="images/icons/credential-default.svg">CREDENTIALS</button>
+                <button onclick="scrolltoMobileContact()"><img src="images/icons/contact-default.svg">CONTACT</button>
+            </div>
+        </nav>
+
+        <script src="js/nav-action.js"></script>
+
+        <section id="hero-section">
+            <div class="section-content container">  
+                <header class="container">
+                    <h2>Hey there, <br id="mobile-break">I'm Franches Fae</h2>
+                    <h1>UI/UX Designer</h1>
+                </header>
+
+                <div>
+                    <h6>About Me</h6>
+                    <p>I am a Freelance UI/UX Designer based in the Philippines.</p>
+                </div>
+
+                <div>
+                    <h6>Socials</h6>
+                    <a href="https://www.linkedin.com/in/franchesfae/" target="_blank" id="linkedin-icon"><img src="images/landing-images/linkedin.png"></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="works-section" class="black-bg">
+            <div class="section-content container">
+                <H3>MY WORKS</H3>
+                
+                <div class="works-content container">
+                    <div class="works-container responsive-row-container">
+                        <img class="mockup-img" src="images/mockup-images/mockup-asianlink.png">
+
+                        <div class="workInfo-con container">
+                            <div class="workInfo container">
+                                <header class="row-container">
+                                    <h4>ASIANLINK.AI</h4>
+                                    <h6>CLIENT PROJECT</h6>
+                                </header>
+
+                                <div class="appInfo container">
+                                    <div>
+                                        <h6>Mobile Application</h6>
+                                        <p>The AsianLink.AI Mobile App integrates public services, news, and e-commerce all in one platform. It offers a range of features designed to support filipinos in their daily lives.</p>
+                                    </div>
+
+                                    <div>
+                                        <h6>Website</h6>
+                                        <p>The AsianLink.AI Website is designed to showcase the mobile application. It provides background information about the app’s features, the team behind it, and the overall problems that the application can solve.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="product-asianlink.html" class="project-btn row-container">GO TO PROJECT <img src="images/icons/arrow-down-right-white.svg"></a>
+                        </div>
+                    </div>
+
+                    <div class="works-container responsive-row-container">
+                        <img class="mockupMobile-img" src="images/mockup-images/mockup-centro.png">
+
+                        <div class="workInfo-con container">
+                            <div class="workInfo container">
+                                <header class="row-container">
+                                    <h4>PHILCENTRO</h4>
+                                    <h6>CLIENT PROJECT</h6>
+                                </header>
+
+                                <p>The AsianLink.AI Website is designed to showcase the mobile application. It provides background information about the app’s features, the team behind it, and the overall problems that the application can solve.</p>
+                            </div>
+
+                            <a href="product-philcentro.html" class="project-btn row-container">GO TO PROJECT <img src="images/icons/arrow-down-right-white.svg"></a>
+                        </div>
+
+                        <img class="mockupWeb-img" src="images/mockup-images/mockup-centro.png">
+                    </div>
+
+                    <div class="works-container responsive-row-container">
+                        <img class="mockup-img" src="images/mockup-images/mockup-annejewelry.png">
+
+                        <div class="workInfo-con container">
+                            <div class="workInfo container">
+                                <header class="row-container">
+                                    <h4>ANNE JEWELRY</h4>
+                                    <h6>INDEPENDENT PROJECT</h6>
+                                </header>
+
+                                <p>The Anne Jewelry Website is an e-commerce platform that sells jewelry inspired by the Anne of Green Gables series. The website combines storybook aesthetics with classic designs, offering a unique shopping experience.</p>
+                            </div>
+
+                            <a href="product-annejewelry.html" class="project-btn row-container">GO TO PROJECT <img src="images/icons/arrow-down-right-white.svg"></a>
+                        </div>
+                    </div>
+
+                    <div class="works-container responsive-row-container">
+                        <img class="mockupMobile-img" src="images/mockup-images/mockup-hideout.png">
+
+                        <div class="workInfo-con container">
+                            <div class="workInfo container">
+                                <header class="row-container">
+                                    <h4>Hide Out<br>Private Resort</h4>
+                                    <h6>CLIENT PROJECT</h6>
+                                </header>
+
+                                <p>Hide Out Private Resort is a website designed to showcase the resort's amenities, rental prices, and contact information.</p>
+                            </div>
+
+                            <a href="product-hideout.html" class="project-btn row-container">GO TO PROJECT <img src="images/icons/arrow-down-right-white.svg"></a>
+                        </div>
+
+                        <img class="mockupWeb-img" src="images/mockup-images/mockup-hideout.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="credentials-section">
+            <div class="section-content container">
+                <div class="credentials-content container">
+                    <h3>EXPERIENCE</h3>
+
+                    <ul id="experience-con">
+                        <li class="experience-list row-container">
+                            <p class="expYear">2024</p>
+                            <div class="imageLine inline-container">
+                                <img src="images/icons/work-default.svg">
+                                <div class="line"></div>
+                            </div>
+                            <div class="expInfo container">
+                                <h5>UI/UX Designer</h5>
+                                <p>Freelance</p>
+                                <p>March 2024 — Present</p>
+                            </div>
+                        </li>
+                        
+                        <li class="experience-list row-container">
+                            <p class="expYear">2023</p>
+                            <div class="imageLine inline-container">
+                                <img src="images/icons/study-default.svg">
+                                <div class="line"></div>
+                            </div>
+                            <div class="expInfo container">
+                                <h5>CIIT College of Art and Technology</h5>
+                                <p>UI/UX Design Course</p>
+                                <p>November 2023 — January 2024</p>
+                            </div>
+                        </li>
+
+                        <li class="experience-list row-container">
+                            <p class="expYear">2022</p>
+                            <div class="imageLine inline-container">
+                                <img src="images/icons/work-default.svg">
+                                <div class="line"></div>
+                            </div>
+                            <div class="expInfo container">
+                                <h5>Service Desk Advisor I</h5>
+                                <p>Concentrix – MDC</p>
+                                <p>October 2022 – February 2024</p>
+                            </div>
+                        </li>
+
+                        <li class="experience-list row-container">
+                            <p class="expYear"></p>
+                            <div class="imageLine inline-container">
+                                <img src="images/icons/study-default.svg">
+                                <div class="line"></div>
+                            </div>
+                            <div class="expInfo container">
+                                <h5>Surge Digital</h5>
+                                <p>Graphic Design Course</p>
+                                <p>July 2022 — September 2022</p>
+                            </div>
+                        </li>
+
+                        <li class="experience-list row-container">
+                            <p class="expYear">2021</p>
+                            <div class="imageLine inline-container">
+                                <img src="images/icons/work-default.svg">
+                                <div class="line"></div>
+                            </div>
+                            <div class="expInfo container">
+                                <h5>Global Service Desk Administrator</h5>
+                                <p>CEVA Logistics – Makati</p>
+                                <p>May 2021 – May 2022</p>
+                            </div>
+                        </li>
+
+                        <li class="experience-list row-container">
+                            <p class="expYear">2019</p>
+                            <div class="imageLine inline-container">
+                                <img src="images/icons/work-default.svg">
+                                <div class="line"></div>
+                            </div>
+                            <div class="expInfo container">
+                                <h5>Technical Support Representative</h5>
+                                <p>VXI Global Holdings – Quezon</p>
+                                <p>July 2019 – January 2020</p>
+                            </div>
+                        </li>
+
+                        <li class="experience-list row-container">
+                            <p class="expYear">2015</p>
+                            <div class="imageLine inline-container">
+                                <img src="images/icons/study-default.svg">
+                                <div id="last-line" class="line"></div>
+                            </div>
+                            <div class="expInfo container">
+                                <h5>STI College Malolos</h5>
+                                <p>Bachelor of Science in Information Technology</p>
+                                <p>June 2015 — May 2019</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="credentials-content container">
+                    <h3>SOFTWARE</h3>
+
+                    <ul class="software-con list-con row-container">
+                        <li>
+                            <img src="images/landing-images/figma.png">
+                            <p>Figma</p>
+                        </li>
+
+                        <li>
+                            <img src="images/landing-images/canva.png">
+                            <p>Canva</p>
+                        </li>
+
+                        <li>
+                            <img src="images/landing-images/adobe-ps.png">
+                            <p>Adobe<br>Photoshop</p>
+                        </li>
+                        
+                        <li>
+                            <img src="images/landing-images/ms-powerpoint.png">
+                            <p>Microsoft<br>Powerpoint</p>
+                        </li>
+                        
+                        <li>
+                            <img src="images/landing-images/ms-word.png">
+                            <p>Microsoft<br>Word</p>
+                        </li>
+                        
+                        <li>
+                            <img src="images/landing-images/ms-excel.png">
+                            <p>Microsoft<br>Excel</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="credentials-content container">
+                    <h3>PROGRAMMING LANGUAGE</h3>
+
+                    <ul class="language-con list-con row-container">
+                        <li>
+                            <img src="images/landing-images/html5.png">
+                            <p>HTML</p>
+                        </li>
+
+                        <li>
+                            <img src="images/landing-images/css3.png">
+                            <p>CSS</p>
+                        </li>
+
+                        <li>
+                            <img src="images/landing-images/js.png">
+                            <p>JavaScript</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="credentials-content container">
+                    <h3>SKILLS</h3>
+
+                    <ul class="skills-con list-con row-container">
+                        <li>
+                            <img src="images/landing-images/wireframing.svg">
+                            <p>Wireframing</p>
+                        </li>
+
+                        <li>
+                            <img src="images/landing-images/prototyping.svg">
+                            <p>Prototyping</p>
+                        </li>
+
+                        <li>
+                            <img src="images/landing-images/graphic-design.svg">
+                            <p>Graphic Design</p>
+                        </li>
+
+                        <li>
+                            <img src="images/landing-images/visual-design.svg">
+                            <p>Visual Design</p>
+                        </li>
+
+                        <li>
+                            <img src="images/landing-images/responsive-design.svg">
+                            <p>Responsive Design</p>
+                        </li>
+
+                        <li>
+                            <img src="images/landing-images/interaction-design.svg">
+                            <p>Interaction Design</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-section" class="black-bg">
+            <div class="section-content responsive-row-container">
+                <h3>CONTACT</h3>
+
+                <div class="contact-content row-container">
+                    <p id="contact-text">franchesfae.eulogio@gmail.com</p>
+                    <div class="button-con row-container">
+                        <button onclick="changeTextToEmail()"><img src="images/icons/mail-active.svg" id="mail-logo"></button>
+                        <button onclick="changeTextToPhone()"><img src="images/icons/phone-inactive.svg" id="phone-logo"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="js/contact-action.js"></script>
+
+        <footer>
+            <p>Last updated on August 2024</p>
+        </footer>
+    </body>
+
+</HTML>

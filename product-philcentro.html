@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<HTML lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <title>Franches Fae - PhilCentro</title>
+
+        <link rel="stylesheet" href="css/general-style.css">
+
+        <link rel="stylesheet" href="css/navbar-style.css">
+        <link rel="stylesheet" href="css/product-style.css">
+    </head>
+
+    <body>
+        <nav>
+            <div id="main-nav" class="row-container">
+                <button id="mobileMenu-btn" onclick="displayNav()"><img src="images/icons/menu-default.svg"></button>
+                <a href="index.html" id="logo-btn">UI Portfolio</a>
+
+                <div class="button-con row-container">
+                    <button onclick="scrolltoTop()"><img src="images/icons/company-default.svg">PHILCENTRO</button>
+                    <button onclick="scrolltoRole()"><img src="images/icons/role-default.svg">ROLE</button>
+                    <div id="designsDropdown-btn" class="container">
+                        <button onclick="scrolltoDesigns()"><img src="images/icons/designs-default.svg">DESIGNS<img src="images/icons/arrow-down-default.svg"></button>
+                        <div class="dropdown-con container" id="designsDropdown-con">
+                            <p>Graphic Design</p>
+                            <button onclick="">Calling Card</button>
+                            <button onclick="">Letter Head</button>
+                            <button onclick="">Brochure</button>
+                            <p>Wireframe</p>
+                            <button onclick="">Login and Creation Screens</button>
+                            <button onclick="">Dashboard Screens</button>
+                            <button onclick="">Project Screens</button>
+                            <button onclick="">Libraries Screens</button>
+                            <button onclick="">Admin Tools Screens</button>
+                            <button onclick="">Reports Screens</button>
+                        </div>
+                    </div>
+                    <div id="otherWorksDropdown-btn" class="container">
+                        <button onclick="scrolltoOtherWorks()"><img src="images/icons/works-default.svg">OTHER WORKS<img src="images/icons/arrow-down-default.svg"></button>
+                        <div class="dropdown-con container" id="otherWorksDropdown-con">
+                            <a href="product-asianlink.html">AsianLink.AI</a>
+                            <a href="product-annejewelry.html">Anne Jewelry</a>
+                            <a href="product-hideout.html">Hide Out Private Resort</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mobile-nav" class="row-container">
+                <button onclick="scrolltoTop()"><img src="images/icons/company-default.svg">PHILCENTRO</button>
+                    <button onclick="scrolltoMobileRole()"><img src="images/icons/role-default.svg">ROLE</button>
+                    <div class="mobileDropdown-btn row-container">
+                        <button onclick="scrolltoMobileDesigns()">
+                            <img src="images/icons/designs-default.svg">
+                            DESIGNS
+                            <button onclick="clicktoDropDesigns()" id="designsArrow-icon"><img src="images/icons/arrow-down-default.svg"></button>
+                        </button>
+                    </div>
+                    <div class="mobileDropdown-con container" id="mobileDesignsDropdown-con">
+                        <p>Graphic Design</p>
+                        <button onclick="">Calling Card</button>
+                        <button onclick="">Letter Head</button>
+                        <button onclick="">Brochure</button>
+                        <p>Wireframe</p>
+                        <button onclick="">Login and Creation Screens</button>
+                        <button onclick="">Dashboard Screens</button>
+                        <button onclick="">Project Screens</button>
+                        <button onclick="">Libraries Screens</button>
+                        <button onclick="">Admin Tools Screens</button>
+                        <button onclick="">Reports Screens</button>
+                    </div>
+
+                    <div class="mobileDropdown-btn row-container">
+                        <button onclick="scrolltoMobileOtherWorks()">
+                            <img src="images/icons/works-default.svg">
+                            OTHER WORKS
+                            <button onclick="clicktoDropOtherWorks()" id="otherWorksArrow-icon"><img src="images/icons/arrow-down-default.svg"></button>
+                        </button>
+                    </div>
+                    <div class="mobileDropdown-con container" id="mobileOtherWorksDropdown-con">
+                        <a href="product-asianlink.html">AsianLink.AI</a>
+                        <a href="product-annejewelry.html">Anne Jewelry</a>
+                        <a href="product-hideout.html">Hide Out Private Resort</a>
+                    </div>
+            </div>
+        </nav>       
+
+        <section id="hero-section">
+            <div class="section-content responsive-row-container">
+                <img src="images/mockup-images/mockup-centro.png">
+                <div class="paragraph-con container">
+                    <header>
+                        <h2>PhilCentro</h2>
+                        <h5>Client Project</h5>
+                    </header>
+
+                    <p><strong>Centro</strong>, powered by Philcentro Technologies, Inc., is a pioneering platform revolutionizing infrastructure management. With a deep commitment to innovation, accountability, and progress, we stand at the forefront of transforming how Local Government Units (LGUs) and stakeholders oversee infrastructure projects. Backed by cutting-edge technology and a passion for community development, Centro is more than a platform; it's a movement that empowers LGUs to build a brighter future.</p>
+
+                    <div>
+                        <h6>Application</h6>
+                        <p>The <strong>PhilCentro</strong> Application is a project management and infrastructure monitoring application designed for Local Government Units (LGUs) and construction stakeholders. The platform provides real-time project monitoring, data analytics, collaboration tools, and funding support.</p>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <script src="js/nav-action.js"></script>
+
+        <section id="role-section" class="black-bg">
+            <div class="section-content container">
+                <h3>ROLES AND RESPONSIBILITIES</h3>
+
+                <ul class="container">
+                    <li><strong>User Interface Design:</strong> Created high-fidelity wireframes, designed components, made responsive designs for varying platforms (desktop, tablet, and mobile), and ensured alignment with the design goals.</li>
+                    <li><strong>Prototype Development:</strong> Built an interactive prototype that can simulate the final product.</li>
+                    <li><strong>Collaboration:</strong> Worked closely with another UI/UX designer who liaised with the product manager and developers, functioning as a junior designer within the team.</li>
+                    <li><strong>Asset Management:</strong> Maintained design assets to ensure they are easily accessible and up-to-date; and created a style guide to assist the developers with developing the application.</li>
+                    <li><strong>Branding and Visual Elements:</strong> Developed the color palette, typography, and other key design elements that aligns with the brand’s identity.</li>
+                    <li><strong>Graphic Design:</strong> Designed marketing materials for the company: Calling cards, letter heads, and brochures.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="designs-section">
+            <div class="section-content container">
+                <div class="designs-content container">
+                    <h3>BROCHURE</h3>
+                    <div class="twoImgDesigns-con container">
+                        <h4>Design 1</h4>
+                        <div class=" design-con row-container">
+                            <img src="images/product-images/PhilCentro Brochure 1 Front.png">
+                            <img src="images/product-images/PhilCentro Brochure 1 Back.png">
+                        </div>
+                    </div>
+                    <div class="twoImgDesigns-con container">
+                        <h4>Design 2</h4>
+                        <div class="design-con row-container">
+                            <img src="images/product-images/PhilCentro Brochure 2 Front.png">
+                            <img src="images/product-images/philcentro brochure 2 Back.png">
+                        </div>
+                    </div>
+                    <div class="twoImgDesigns-con container">
+                        <h4>Design 3</h4>
+                        <div class="design-con row-container">
+                            <img src="images/product-images/philcentro brochure 3 Front.png">
+                            <img src="images/product-images/philcentro brochure 3 Back.png">
+                        </div>
+                    </div>
+                    <div class="twoImgDesigns-con container">
+                        <h4>Design 4</h4>
+                        <div class="design-con row-container">
+                            <img src="images/product-images/philcentro brochure 4 Front.png">
+                            <img src="images/product-images/PhilCentro Brochure 4 Back.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="designs-content container">
+                    <h3>CALLING CARD</h3>
+                    <div class="twoImgDesigns-con container">
+                        <h4>Design 1</h4>
+                        <div class="design-con row-container">
+                            <img src="images/product-images/PhilCentro Calling Card 1 Front.png">
+                            <img src="images/product-images/PhilCentro Calling Card 1 Back.png">
+                        </div>
+                    </div>
+                    <div class="twoImgDesigns-con container">
+                        <h4>Design 2</h4>
+                        <div class="design-con row-container">
+                            <img src="images/product-images/PhilCentro Calling Card 2 Front.png">
+                            <img src="images/product-images/PhilCentro Calling Card 2 Back.png">
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="designs-content container">
+                    <h3>LETTER HEAD</h3>
+                    <div class="oneImgDesigns-con design-con row-container">
+                        <div class="oneImgDesigns-con container">
+                            <h4>Design 1</h4>
+                            <img src="images/product-images/PhilCentro Letter Head 1.png">
+                        </div>
+                        <div class="oneImgDesigns-con container">
+                            <h4>Design 2</h4>
+                            <img src="images/product-images/PhilCentro Letter Head 2.png">
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="designs-content container">
+                    <h3>LOGIN AND CREATION SCREENS</h3>
+                    <img src="images/product-images/PhilCentro Login and Creation Screen 1.png">
+                    <img src="images/product-images/PhilCentro Login and Creation Screen 2.png">
+                    <img src="images/product-images/PhilCentro Login and Creation Screen 3.png">
+                    <img src="images/product-images/PhilCentro Login and Creation Screen 4.png">
+                </div>
+
+                <div class="designs-content container">
+                    <h3>DASHBOARD SCREENS</h3>
+                    <img src="images/product-images/PhilCentro Dashboard Screen 1.png">
+                </div>
+                
+                <div class="designs-content container">
+                    <h3>PROJECT SCREENS</h3>
+                    <img src="images/product-images/PhilCentro Project Screen 1.png">
+                    <img src="images/product-images/PhilCentro Project Screen 2.png">
+                    <img src="images/product-images/PhilCentro Project Screen 3.png">
+                </div>
+
+                <div class="designs-content container">
+                    <h3>LIBRARIES SCREENS</h3>
+                    <img src="images/product-images/PhilCentro Libraries Screen 1.png">
+                    <img src="images/product-images/PhilCentro Libraries Screen 2.png">
+                </div>
+                
+                <div class="designs-content container">
+                    <h3>ADMIN TOOLS SCREENS</h3>
+                    <img src="images/product-images/PhilCentro Admin Tools Screen 1.png">
+                    <img src="images/product-images/PhilCentro Admin Tools Screen 2.png">
+                </div>
+                
+                <div class="designs-content container">
+                    <h3>REPORTS SCREENS</h3>
+                    <img src="images/product-images/PhilCentro Reports Screen 1.png">
+                    <img src="images/product-images/PhilCentro Reports Screen 2.png">
+                    <img src="images/product-images/PhilCentro Reports Screen 3.png">
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="otherWorks-section" class="black-bg">
+            <div class="section-content container">
+                <h3>OTHER PROJECTS</h3>
+                <div class="otherWorks-content row-container">
+                    <a href="product-asianlink.html" class="otherWorks-con container">
+                        <img src="images/mockup-images/mockup-asianlink-front.svg">
+                        <header>
+                            <h4>ASIANLINK.AI</h4>
+                            <h6>CLIENT <br id="mobile-break">PROJECT</h6>
+                        </header>
+                    </a>
+
+                    <a href="product-annejewelry.html" class="otherWorks-con container">
+                        <img src="images/mockup-images/mockup-annejewelry-front.svg">
+                        <header>
+                            <h4>ANNE JEWELRY</h4>
+                            <h6>INDEPENDENT PROJECT</h6>
+                        </header>
+                    </a>
+
+                    <a href="product-hideout.html" class="otherWorks-con container">
+                        <img src="images/mockup-images/mockup-hideout-front.svg">
+                        <header>
+                            <h4>HIDE OUT PRIVATE RESORT</h4>
+                            <h6>INDEPENDENT PROJECT</h6>
+                        </header>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Last updated on August 2024</p>
+        </footer>
+    </body>
+</HTML>
